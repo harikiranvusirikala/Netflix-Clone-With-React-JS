@@ -7,3 +7,4 @@ Install following extension in VS Code
 
 App.jsx -> rafce
 
+.navbar-left -> Enter creates a div tag with className navbar-left.
