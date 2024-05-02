@@ -1,0 +1,9 @@
+$ npm create vite@latest -> Project name . -> React -> JavaScript
+$ npm install
+$ npm run dev
+
+Install following extension in VS Code
+"ES7 React/Redux/GraphQL/React-Native snippets" by rodrigovallades
+
+App.jsx -> rafce
+
