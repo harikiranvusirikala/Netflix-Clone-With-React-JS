@@ -8,3 +8,5 @@ Install following extension in VS Code
 App.jsx -> rafce
 
 .navbar-left -> Enter creates a div tag with className navbar-left.
+
+https://fonts.google.com/ -> Poppins -> import the embedded code
