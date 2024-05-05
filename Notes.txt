@@ -14,3 +14,11 @@ https://fonts.google.com/ -> Poppins -> import the embedded code
 $ npm install react-router-dom
 
 p.login-form -> Enter creates a p tag with className login-form.
+
+https://www.themoviedb.org/settings/api/request
+Type of Use - Website
+
+https://developer.themoviedb.org/docs/getting-started
+-> https://developer.themoviedb.org/reference/movie-now-playing-list -> Selecte JavaScript language
+
+Image path at - https://developer.themoviedb.org/docs/image-basics
