@@ -25,3 +25,11 @@ Image path at - https://developer.themoviedb.org/docs/image-basics
 
 -> https://developer.themoviedb.org/reference/movie-videos
 
+https://firebase.google.com/ -> https://console.firebase.google.com/ -> Add project
+Build -> Authentication -> Get started -> Native Providers -> Email/Password (enable)
+Build -> Firestore Database -> region - mumbai -> Start in test mode
+Project Overview -> Web -> Register app
+$ npm install firebase react-firebase-hooks
+Add firebase SDK code to src/firebase.js
+- https://firebase.google.com/docs/web/setup#available-libraries
+
