@@ -33,3 +33,8 @@ $ npm install firebase react-firebase-hooks
 Add firebase SDK code to src/firebase.js
 - https://firebase.google.com/docs/web/setup#available-libraries
 
+Beauty the alert message(like invalid cred OR if email already in use while signing up) for authentication.
+- https://www.npmjs.com/package/react-toastify
+$ npm install react-toastify
+Demo - https://fkhadra.github.io/react-toastify/introduction/
+
