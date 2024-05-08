@@ -38,3 +38,6 @@ Beauty the alert message(like invalid cred OR if email already in use while sign
 $ npm install react-toastify
 Demo - https://fkhadra.github.io/react-toastify/introduction/
 
+
+https://topmate.io/harikiranvusirikala/969492 - Sell the code
+
