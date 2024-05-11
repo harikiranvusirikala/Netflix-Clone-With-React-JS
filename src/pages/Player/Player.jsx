@@ -24,10 +24,19 @@ const Player = () => {
   };
 
   useEffect(() => {
-    fetch(`https://api.themoviedb.org/3/movie/${id}/videos?language=en-US`, options)
-      .then(response => response.json())
-      .then(response => setApiData(response.results[0]))
-      .catch(err => console.error(err));
+
+    if (id == "823460")
+      setApiData({
+        name: "The Protector",
+        key: "80dqOwAOhbo",
+        published_at: "2018-11-14",
+        type: "Trailer",
+      });
+    else
+      fetch(`https://api.themoviedb.org/3/movie/${id}/videos?language=en-US`, options)
+        .then(response => response.json())
+        .then(response => setApiData(response.results[0]))
+        .catch(err => console.error(err));
   }, [])
 
   return (
