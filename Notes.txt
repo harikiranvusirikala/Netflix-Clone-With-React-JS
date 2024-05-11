@@ -53,6 +53,20 @@ Beauty the alert message(like invalid cred OR if email already in use while sign
 $ npm install react-toastify
 Demo - https://fkhadra.github.io/react-toastify/introduction/
 
+Deployement:
+$ npm install gh-pages --save-dev
+
+In the package.json file add these lines before "build": "vite build",
+"predeploy": "npm run build",
+"deploy": "gh-pages -d dist",
+
+In the vite.config.js file add this line before plugins: [react()],
+base: "/YOUR_REPOSITORY_NAME",
+
+$ npm run deploy
+
+We have a gh-pages branch in your repository and your app is deployed (can check it under Settings -> Pages)
+To update app deployment, just run the npm run deploy command again.
 
 https://topmate.io/harikiranvusirikala/969492 - Sell the code
 
