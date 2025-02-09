@@ -1,3 +1,13 @@
+Techs involved:
+React JS
+CSS
+Redux - state management
+Stripe
+Firebase Authentication
+TheMovieDB
+
+$ npx create-react-app netflix-clone-with-react --template redux
+
 $ npm create vite@latest -> Project name . -> React -> JavaScript
 $ npm install
 $ npm run dev
