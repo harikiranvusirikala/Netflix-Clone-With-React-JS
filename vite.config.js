@@ -6,6 +6,6 @@ export default defineConfig({
   base: "/Netflix-Clone-With-React-JS/",
   plugins: [react()],
   build: {
-    outDir: 'dist', // Ensure the output directory is 'dist'
+    outDir: '/Netflix-Clone-With-React-JS/dist', // Ensure the output directory is 'dist'
   },
 })
