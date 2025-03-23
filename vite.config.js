@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "/Netflix-Clone-With-React-JS/",
   plugins: [react()],
+  build: {
+    outDir: 'dist', // Ensure the output directory is 'dist'
+  },
 })
